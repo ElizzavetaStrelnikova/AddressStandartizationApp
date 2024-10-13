@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eliza\\source\\repos\\AddressStandartizationService\\AddressStandartizationService.csproj": {}
+    "C:\\Users\\eliza\\source\\repos\\AddressStandartizationApp\\AddressStandartizationService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eliza\\source\\repos\\AddressStandartizationService\\AddressStandartizationService.csproj": {
+    "C:\\Users\\eliza\\source\\repos\\AddressStandartizationApp\\AddressStandartizationService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eliza\\source\\repos\\AddressStandartizationService\\AddressStandartizationService.csproj",
+        "projectUniqueName": "C:\\Users\\eliza\\source\\repos\\AddressStandartizationApp\\AddressStandartizationService.csproj",
         "projectName": "AddressStandartizationService",
-        "projectPath": "C:\\Users\\eliza\\source\\repos\\AddressStandartizationService\\AddressStandartizationService.csproj",
+        "projectPath": "C:\\Users\\eliza\\source\\repos\\AddressStandartizationApp\\AddressStandartizationService.csproj",
         "packagesPath": "C:\\Users\\eliza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eliza\\source\\repos\\AddressStandartizationService\\obj\\",
+        "outputPath": "C:\\Users\\eliza\\source\\repos\\AddressStandartizationApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

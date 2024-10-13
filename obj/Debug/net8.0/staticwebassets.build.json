@@ -1,11 +1,58 @@
 {
   "Version": 1,
-  "Hash": "ZWXJa91nAMKFW2tgGq3D3PqxUEu7ZNq7uLKaThpwuKU=",
+  "Hash": "rxLCNgFikbgpCnY+Geiw0aa1KZ/Gad8BHqcNxoX3hmg=",
   "Source": "AddressStandartizationService",
   "BasePath": "_content/AddressStandartizationService",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "AddressStandartizationService\\wwwroot",
+      "Source": "AddressStandartizationService",
+      "ContentRoot": "C:\\Users\\eliza\\source\\repos\\AddressStandartizationApp\\wwwroot\\",
+      "BasePath": "_content/AddressStandartizationService",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\eliza\\source\\repos\\AddressStandartizationApp\\wwwroot\\index.html",
+      "SourceId": "AddressStandartizationService",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\eliza\\source\\repos\\AddressStandartizationApp\\wwwroot\\",
+      "BasePath": "_content/AddressStandartizationService",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\eliza\\source\\repos\\AddressStandartizationApp\\wwwroot\\styles.css",
+      "SourceId": "AddressStandartizationService",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\eliza\\source\\repos\\AddressStandartizationApp\\wwwroot\\",
+      "BasePath": "_content/AddressStandartizationService",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
+    }
+  ]
 }
