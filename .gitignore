@@ -1,3 +1,4 @@
 .vs/
-.obj/
-.wwwroot/lib/
+obj/
+bin/
+wwwroot/lib/
