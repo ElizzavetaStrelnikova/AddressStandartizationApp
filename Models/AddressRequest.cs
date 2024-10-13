@@ -2,6 +2,6 @@
 {
     public class AddressRequest
     {
-        public string RawAddress { get; set; } = string.Empty;
+        public string Address { get; set; }
     }
 }

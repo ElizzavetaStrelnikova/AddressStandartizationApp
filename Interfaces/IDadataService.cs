@@ -4,6 +4,6 @@ namespace AddressStandartizationService.Interfaces
 {
     public interface IDadataService
     {
-        Task<List<AddressResponse>> CleanClientAsync(string rawAddress);
+        Task<AddressResponse> CleanAddressAsync(string address);
     }
 }
