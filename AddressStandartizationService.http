@@ -1,0 +1,6 @@
+@AddressStandartizationService_HostAddress = http://localhost:5051
+
+GET {{AddressStandartizationService_HostAddress}}/Address/clean?address=воронежленина1
+Accept: application/json
+
+###
