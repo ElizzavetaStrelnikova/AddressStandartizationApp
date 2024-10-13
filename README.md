@@ -1,28 +1,28 @@
 # Address Standardization Service
 
-Этот проект представляет собой веб-API для стандартизации адресов, использующее Dadata API для очистки и валидации адресов.
+Р­С‚РѕС‚ РїСЂРѕРµРєС‚ РїСЂРµРґСЃС‚Р°РІР»СЏРµС‚ СЃРѕР±РѕР№ РІРµР±-API РґР»СЏ СЃС‚Р°РЅРґР°СЂС‚РёР·Р°С†РёРё Р°РґСЂРµСЃРѕРІ, РёСЃРїРѕР»СЊР·СѓСЋС‰РµРµ Dadata API РґР»СЏ РѕС‡РёСЃС‚РєРё Рё РІР°Р»РёРґР°С†РёРё Р°РґСЂРµСЃРѕРІ.
 
-## Технологии
+## РўРµС…РЅРѕР»РѕРіРёРё
 
 - ASP.NET Core
-- Serilog для логирования
-- AutoMapper для маппинга объектов
-- Dadata API для очистки адресов
+- Serilog РґР»СЏ Р»РѕРіРёСЂРѕРІР°РЅРёСЏ
+- AutoMapper РґР»СЏ РјР°РїРїРёРЅРіР° РѕР±СЉРµРєС‚РѕРІ
+- Dadata API РґР»СЏ РѕС‡РёСЃС‚РєРё Р°РґСЂРµСЃРѕРІ
 
-## Структура проекта
+## РЎС‚СЂСѓРєС‚СѓСЂР° РїСЂРѕРµРєС‚Р°
 - AddressStandartizationService
   - Controllers
   - Interfaces
   - Models
   - Services
 
-## Установка
+## РЈСЃС‚Р°РЅРѕРІРєР°
 
 -git clone https://github.com/ElizzavetaStrelnikova/AddressStandartizationApp.git
 -cd AddressStandartizationApp
--Установите необходимые пакеты
+-РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РЅРµРѕР±С…РѕРґРёРјС‹Рµ РїР°РєРµС‚С‹
 
--Наполните секцию Dadata в файле appsettings.json с вашими ключами API:
+-РќР°РїРѕР»РЅРёС‚Рµ СЃРµРєС†РёСЋ Dadata РІ С„Р°Р№Р»Рµ appsettings.json СЃ РІР°С€РёРјРё РєР»СЋС‡Р°РјРё API:
     "Dadata": {
         "ApiKey": "your_api_key",
         "SecretKey": "your_secret_key",
@@ -31,5 +31,5 @@
         "Url": "https://cleaner.dadata.ru/api/v1/clean/address"
     }
 
--Запустите проект
--После запуска проекта API будет доступно по адресу https://localhost:44350/index.html
+-Р—Р°РїСѓСЃС‚РёС‚Рµ РїСЂРѕРµРєС‚
+-РџРѕСЃР»Рµ Р·Р°РїСѓСЃРєР° РїСЂРѕРµРєС‚Р° API Р±СѓРґРµС‚ РґРѕСЃС‚СѓРїРЅРѕ РїРѕ Р°РґСЂРµСЃСѓ https://localhost:44350/index.html
