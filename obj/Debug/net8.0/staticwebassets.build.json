@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rxLCNgFikbgpCnY+Geiw0aa1KZ/Gad8BHqcNxoX3hmg=",
+  "Hash": "5uM+j8RafPe0E+thG//CbQhAX7FKvejd89KxTDTW5Zs=",
   "Source": "AddressStandartizationService",
   "BasePath": "_content/AddressStandartizationService",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\eliza\\source\\repos\\AddressStandartizationApp\\wwwroot\\css\\styles.css",
+      "SourceId": "AddressStandartizationService",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\eliza\\source\\repos\\AddressStandartizationApp\\wwwroot\\",
+      "BasePath": "_content/AddressStandartizationService",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
     {
       "Identity": "C:\\Users\\eliza\\source\\repos\\AddressStandartizationApp\\wwwroot\\index.html",
       "SourceId": "AddressStandartizationService",
@@ -34,25 +53,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
-      "Identity": "C:\\Users\\eliza\\source\\repos\\AddressStandartizationApp\\wwwroot\\styles.css",
-      "SourceId": "AddressStandartizationService",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\eliza\\source\\repos\\AddressStandartizationApp\\wwwroot\\",
-      "BasePath": "_content/AddressStandartizationService",
-      "RelativePath": "styles.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\styles.css"
     }
   ]
 }
