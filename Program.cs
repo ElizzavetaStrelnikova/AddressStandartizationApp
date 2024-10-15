@@ -1,4 +1,7 @@
 using AddressStandartizationService.Interfaces;
+using AddressStandartizationService.Mappings;
+using AddressStandartizationService.Middlewares;
+using AddressStandartizationService.Models;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +14,7 @@ Log.Logger = new LoggerConfiguration()
 builder.Host.UseSerilog();
 
 builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddHttpClient(); 
 builder.Services.AddSingleton<IConfiguration>(configuration); 
 builder.Services.AddScoped<IDadataService, DadataService>();
@@ -27,9 +31,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.Configure<DadataSettings>(builder.Configuration.GetSection("DadataSettings"));
+
 var app = builder.Build();
 
 app.UseStaticFiles();
+
+app.UseMiddleware<ErrorHandlingMiddleware>();
 
 //Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

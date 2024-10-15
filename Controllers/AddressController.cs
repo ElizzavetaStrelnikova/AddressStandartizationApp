@@ -1,5 +1,6 @@
 using AddressStandartizationService.Interfaces;
 using AddressStandartizationService.Models;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
@@ -7,10 +8,12 @@ using Microsoft.AspNetCore.Mvc;
 public class AddressController : ControllerBase
 {
     private readonly IDadataService _dadataService;
+    private readonly IMapper _mapper;
 
-    public AddressController(IDadataService dadataService)
+    public AddressController(IDadataService dadataService, IMapper mapper)
     {
         _dadataService = dadataService;
+        _mapper = mapper;
     }
 
     [HttpPost("clean")]
@@ -24,7 +27,10 @@ public class AddressController : ControllerBase
         try
         {
             var cleanedAddress = await _dadataService.CleanAddressAsync(request.Address);
-            return Ok(cleanedAddress);
+
+            var response = _mapper.Map<AddressResponse>(cleanedAddress);
+
+            return Ok(response);
         }
         catch (Exception ex)
         {
